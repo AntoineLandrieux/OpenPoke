@@ -1,0 +1,39 @@
+@import url("ui/root.css");
+
+/*
+ * 
+ * ________                      __________       __
+ * \_____  \ ______   ____   ____\______   \____ |  | __ ____
+ *  /   |   \\____ \_/ __ \ /    \|     ___/  _ \|  |/ // __ \
+ * /    |    \  |_> >  ___/|   |  \    |  (  <_> )    <\  ___/
+ * \_______  /   __/ \___  >___|  /____|   \____/|__|_ \\___  >
+ *         \/|__|        \/     \/                    \/    \/
+ * 
+ * OpenPoke 2025 <https://github.com/AntoineLandrieux/OpenPoke> WTFPL
+ * 
+ */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#423e3e, #1b0809);
+}
+
+canvas {
+    background-color: #000000;
+}
+
+@media screen and (max-width: 800px) {
+    canvas {
+        width: 100%;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    canvas {
+        height: 100%;
+    }
+}
