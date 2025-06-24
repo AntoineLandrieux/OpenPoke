@@ -40,4 +40,4 @@ See **[AUTHORS file](AUTHORS)**
 
 **Contributors :**
 
-![contributors](https://contrib.rocks/image?repo=AntoineLandrieux/OpenPoke/)
+![contributors](https://contrib.rocks/image?repo=AntoineLandrieux/OpenPoke)
